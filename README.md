@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src='https://user-images.githubusercontent.com/4397546/229094115-862c747e-7397-4b54-ba4a-bd368bfe2e0f.png' width='500px'/>
-
 
 <!--<h2> 😭 SadTalker： <span style="font-size:12px">Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation </span> </h2> -->
 
@@ -92,7 +90,7 @@ Community tutorials: [中文Windows教程 (Chinese Windows tutorial)](https://ww
 
 2. Creating the env and install the requirements.
   ```bash
-  git clone https://github.com/OpenTalker/SadTalker.git
+  git clone https://github.com/aurelianocyp/SadTalker
 
   cd SadTalker 
 
