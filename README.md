@@ -1,9 +1,5 @@
 
 
-- Several new modes (Still, reference, and resize modes) are now available!
-
-- We're happy to see more community demos on [bilibili](https://search.bilibili.com/all?keyword=sadtalker), [YouTube](https://www.youtube.com/results?search_query=sadtalker) and [X (#sadtalker)](https://twitter.com/search?q=%23sadtalker&src).
-
 ## Changelog 
 
 The previous changelog can be found [here](docs/changlelog.md).
@@ -181,7 +177,7 @@ Using `--still` to generate a natural full body video. You can add `enhancer` to
 ```bash
 python inference.py --driven_audio input/1min.wav --source_image input/myphoto.jpg --result_dir out --still --preprocess full --enhancer gfpgan 
 ```
-如果需要保留中间结果需要指定 --verbose True
+如果需要保留中间结果需要指定 --verbose true
 
 More examples and configuration and tips can be founded in the [ >>> best practice documents <<<](docs/best_practice.md).
 
