@@ -1,33 +1,3 @@
-
-
-## Changelog 
-
-The previous changelog can be found [here](docs/changlelog.md).
-
-- __[2023.06.12]__: Added more new features in WebUI extension, see the discussion [here](https://github.com/OpenTalker/SadTalker/discussions/386).
-
-- __[2023.06.05]__: Released a new 512x512px (beta) face model. Fixed some bugs and improve the performance.
-
-- __[2023.04.15]__: Added a WebUI Colab notebook by [@camenduru](https://github.com/camenduru/): [![sd webui-colab](https://img.shields.io/badge/Automatic1111-Colab-green)](https://colab.research.google.com/github/camenduru/stable-diffusion-webui-colab/blob/main/video/stable/stable_diffusion_1_5_video_webui_colab.ipynb)
-
-- __[2023.04.12]__: Added a more detailed WebUI installation document and fixed a problem when reinstalling.
-
-- __[2023.04.12]__: Fixed the WebUI safe issues becasue of 3rd-party packages, and optimized the output path in `sd-webui-extension`.
-
-- __[2023.04.08]__: In v0.0.2, we added a logo watermark to the generated video to prevent abuse. _This watermark has since been removed in a later release._
-
-- __[2023.04.08]__: In v0.0.2, we added features for full image animation and a link to download checkpoints from Baidu. We also optimized the enhancer logic.
-
-## To-Do
-
-We're tracking new updates in [issue #280](https://github.com/OpenTalker/SadTalker/issues/280).
-
-## Troubleshooting
-
-If you have any problems, please read our [FAQs](docs/FAQ.md) before opening an issue.
-
-
-
 ## 1. Installation.
 
 Community tutorials: [中文Windows教程 (Chinese Windows tutorial)](https://www.bilibili.com/video/BV1Dc411W7V6/) | [日本語コース (Japanese tutorial)](https://br-d.fanbox.cc/posts/5685086).
@@ -177,7 +147,7 @@ Using `--still` to generate a natural full body video. You can add `enhancer` to
 ```bash
 python inference.py --driven_audio input/1min.wav --source_image input/myphoto.jpg --result_dir out --still --preprocess full --enhancer gfpgan 
 ```
-如果需要保留中间结果需要指定 --verbose true
+如果需要保留中间结果需要指定--verbose
 
 More examples and configuration and tips can be founded in the [ >>> best practice documents <<<](docs/best_practice.md).
 
