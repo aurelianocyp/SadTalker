@@ -191,32 +191,12 @@ The results will be saved in `results/$SOME_TIMESTAMP/*.mp4`.
 Using `--still` to generate a natural full body video. You can add `enhancer` to improve the quality of the generated video. 
 
 ```bash
-python inference.py --driven_audio <audio.wav> \
-                    --source_image <video.mp4 or picture.png> \
-                    --result_dir <a file to store results> \
-                    --still \
-                    --preprocess full \
-                    --enhancer gfpgan 
+python inference.py --driven_audio input/1min.wav --source_image input/myphoto.jpg --result_dir out --still --preprocess full --enhancer gfpgan 
 ```
 
 More examples and configuration and tips can be founded in the [ >>> best practice documents <<<](docs/best_practice.md).
 
-## Citation
 
-If you find our work useful in your research, please consider citing:
-
-```bibtex
-@article{zhang2022sadtalker,
-  title={SadTalker: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation},
-  author={Zhang, Wenxuan and Cun, Xiaodong and Wang, Xuan and Zhang, Yong and Shen, Xi and Guo, Yu and Shan, Ying and Wang, Fei},
-  journal={arXiv preprint arXiv:2211.12194},
-  year={2022}
-}
-```
-
-## Acknowledgements
-
-Facerender code borrows heavily from [zhanglonghao's reproduction of face-vid2vid](https://github.com/zhanglonghao1992/One-Shot_Free-View_Neural_Talking_Head_Synthesis) and [PIRender](https://github.com/RenYurui/PIRender). We thank the authors for sharing their wonderful code. In training process, we also used the model from [Deep3DFaceReconstruction](https://github.com/microsoft/Deep3DFaceReconstruction) and [Wav2lip](https://github.com/Rudrabha/Wav2Lip). We thank for their wonderful work.
 
 We also use the following 3rd-party libraries:
 
