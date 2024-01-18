@@ -181,6 +181,7 @@ Using `--still` to generate a natural full body video. You can add `enhancer` to
 ```bash
 python inference.py --driven_audio input/1min.wav --source_image input/myphoto.jpg --result_dir out --still --preprocess full --enhancer gfpgan 
 ```
+如果需要保留中间结果需要指定 --verbose True
 
 More examples and configuration and tips can be founded in the [ >>> best practice documents <<<](docs/best_practice.md).
 
