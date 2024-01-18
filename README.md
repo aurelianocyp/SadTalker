@@ -182,9 +182,7 @@ You can also start it more easily:
 
 ##### Animating a portrait image from default config:
 ```bash
-python inference.py --driven_audio <audio.wav> \
-                    --source_image <video.mp4 or picture.png> \
-                    --enhancer gfpgan 
+python inference.py --driven_audio <audio.wav> --source_image <video.mp4 or picture.png> --enhancer gfpgan 
 ```
 The results will be saved in `results/$SOME_TIMESTAMP/*.mp4`.
 
