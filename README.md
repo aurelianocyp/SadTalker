@@ -26,24 +26,6 @@ Community tutorials: [中文Windows教程 (Chinese Windows tutorial)](https://ww
   ### pip install TTS
 
   ```  
-### Windows
-
-A video tutorial in chinese is available [here](https://www.bilibili.com/video/BV1Dc411W7V6/). You can also follow the following instructions:
-
-1. Install [Python 3.8](https://www.python.org/downloads/windows/) and check "Add Python to PATH".
-2. Install [git](https://git-scm.com/download/win) manually or using [Scoop](https://scoop.sh/): `scoop install git`.
-3. Install `ffmpeg`, following [this tutorial](https://www.wikihow.com/Install-FFmpeg-on-Windows) or using [scoop](https://scoop.sh/): `scoop install ffmpeg`.
-4. Download the SadTalker repository by running `git clone https://github.com/Winfredy/SadTalker.git`.
-5. Download the checkpoints and gfpgan models in the [downloads section](#2-download-models).
-6. Run `start.bat` from Windows Explorer as normal, non-administrator, user, and a Gradio-powered WebUI demo will be started.
-
-### macOS
-
-A tutorial on installing SadTalker on macOS can be found [here](docs/install.md).
-
-### Docker, WSL, etc
-
-Please check out additional tutorials [here](docs/install.md).
 
 ## 2. Download Models
 
