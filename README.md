@@ -35,7 +35,7 @@ You can run the following script on Linux/macOS to automatically download all th
 bash scripts/download_models.sh
 ```
 
-下载的时候开一下代理，应该是很快就能下完的。
+下载的时候开一下代理，应该是很快就能下完的。后续如果报一些很奇怪的错误，很有可能是下载的时候某一次下载断联了后续下载也没有再管，所以文件不完整，建议重下。
 
 We also provide an offline patch (`gfpgan/`), so no model will be downloaded when generating.
 
