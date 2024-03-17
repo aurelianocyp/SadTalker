@@ -35,6 +35,8 @@ You can run the following script on Linux/macOS to automatically download all th
 bash scripts/download_models.sh
 ```
 
+下载的时候开一下代理，应该是很快就能下完的。
+
 We also provide an offline patch (`gfpgan/`), so no model will be downloaded when generating.
 
 ### Pre-Trained Models
